@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donut Shops Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="donutSshop.js"></script>
+   
+    
+</head>
+
+<body>
+    <div id="main_container">
+        <header>
+             <div id="image_top">
+             </div>
+             <div id="header">
+                <h1> Welcome to Sara's Donut Shop Simulator!</h1>
+                <h2>How many donuts to bake per hour/day?</h2>
+             </div>
+        </header>
+        
+        <div id="first_p">
+            <p>This simulator is created to help each donut shop predict the amount of donuts they should be producing each day. The simulator has been calculated based on the following information:</p>
+                <ul>
+                    <li>The hours of operation of each shop (in this case we use 11 hours as the usual shop hours are 7am-6pm).</li>
+                    <li>A random sample of customers per hour (this is a computer-based calculation).</li>
+                    <li>The average number of donuts purchased per customer (this has been pre-calculated based on the historical information).</li>
+                </ul>
+        </div>
+        <div id="drop_box">
+           <p>Please select your shop location below to see the results. If you want to see all locations, please select "All Locations".</p>
+        </div>
+
+            <button class="button" id="buttonAll">All Locations</button>
+            <button class="button" id="buttonDTown">Downtown</button>
+            <button class="button" id="buttonCapHill">Capitol Hill</button>
+            <button class="button" id="buttonSLake">South Lake Union</button>
+            <button class="button" id="buttonWWood">Wedgewood</button>
+            <button class="button" id="buttonBallard">Ballard</button>
+            
+            <table border="2" width="700px" height="300px">
+                <thead id="tableHead">
+                    <tr>
+                        <th>Shop Locations</th>
+                        <th>Opening time</th>
+                        <th>Closing time</th>
+                        <th>Min customers/hour</th>
+                        <th>Max customers/hour</th>
+                        <th>Avg donuts/customer</th>
+                        <th>Donuts/Hour</th>
+                        <th>Donuts/Day</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                </tbody>
+            </table>
+            <div id="newInput">   
+                <p>Please enter any changes you want to make here to see new results:</p>
+                
+                    <p class="formName">New minimum customer/hour  <input type='number' id="newMinCustHr"></p>
+                    <p class="formName">New maximum customer/hour  <input type='number' id='newMaxCustHr'></p>
+                    <p class="formName">New average donut/customer <input type='number' id='newAvgDonutsCust'></p>
+                <button id="buttonSubmit">submit</button>
+            </div>      
+                
+
+    </div>
+    <div id="footer">
+                
+                    &#169; Warissara Nopsittiporn 2015. All Rights Reserved.
+                        
+                    
+    </div>
+
+</body>
+
+</html>
+        
+       

@@ -1,0 +1,162 @@
+
+	body {
+	  font-family: 'Courier New', Courier, monospace;
+	  font-size: 12px;
+	  color: #8B6547;
+	  background-image: url(https://s-media-cache-ak0.pinimg.com/236x/4e/55/31/4e5531946555a371416ebfea84a90e04.jpg);
+	}
+	 
+	#main_container {
+	  position: relative;
+	  min-height: 100%;
+	  width: 880px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding-top: 30px;
+	  padding-bottom: 50px;
+	  padding-left: 40px;
+	  padding-right: 40px;
+	  background-color: pink;
+	  border-radius: 10px;
+	}
+	#image_top2 {
+      background-image: url(http://justabackpackandarollie.com/wp-content/uploads/2013/05/voodoodonut4.jpg);
+      position: relative;
+	  min-height: 100%;
+	  width: 880px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding-top: 100px;
+	  padding-bottom: 100px;
+	  border: none;
+	  margin-top: 10px;
+	  cursor: pointer;
+	}
+	#image_top {
+      background-image: url(http://www.legaljuice.com/files/2013/11/doughnuts-donuts.jpg);
+      position: relative;
+	  min-height: 100%;
+	  width: 880px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  padding-top: 100px;
+	  padding-bottom: 100px;
+	  border: none;
+	  margin-top: 10px;
+	  cursor: pointer;
+	}
+
+	#first_p {
+	  padding-top: 10px;
+	  padding-left: 20px;
+	}
+
+	#header {
+	  text-align: center;
+	  color: 009933;
+	  border: none;
+	}
+
+	h1 {
+		color: red;
+		font-size: 270%;
+	}
+
+	h2 {
+		font-size: 220%;
+	}
+
+	p {
+		font-size: 150%;
+		font-family: monospace;
+	}
+	li {
+		font-size: 125%;
+		font-weight: bolder;
+	}
+	#drop_box {
+		padding-left: 20px;
+	}
+	
+	button:hover {
+		background: #BA55D3;
+	}
+
+	.button {
+	   background: #DDA0DD;
+	   border-radius: 7px;
+	   border: 1px solid black;
+	   margin: 2px;
+	   padding: 0.8em;
+	   font-size: 1.2em;
+	   font-weight: bolder;
+	   min-height: 100%;
+	   min-width: 100%;
+	   font-family: Verdana, Arial, Sans-Serif;
+	   color: purple;
+	   cursor: pointer;
+	}
+	table {
+	   margin-bottom: 20px;
+	   margin-top: 20px;
+	   background-color: #D8BFD8;
+	   width: 100%;
+	   text-align: center;
+	}
+	#tableHead {
+		font-size: 15px;
+		text-align: center;
+	}
+	tbody { 
+		text-align: center;
+	}
+	th {
+		width: 100px;
+		height: 50px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	#buttonSubmit {
+		width: 70px;
+		height: 30px;
+		background-color: #DDA0DD;
+		font-weight: bold;
+		font-family: Verdana, Arial, Sans-Serif;
+	}
+	
+	.formName {
+		font-size: 13px;
+	}
+	input {
+		width: 50px;
+	}
+	#footer {
+		text-align: center;
+		font-family: monospace;
+		font-style: italic;
+		width: 500px;
+	    height: 30px;
+	    margin: 0px auto;
+	    color: #8B6547;
+	    font-size: 15px;
+	    background-color: #D2B48C;
+	    margin-top: 20px;
+	    padding-top: 20px;
+	    border-radius: 10px;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
